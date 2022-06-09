@@ -58,11 +58,12 @@ body {
     text-align: center;
 }
 
-.main {
+main {
     display: flex;
     grid-area: main;
     background-color: #E5E7E9;
     min-height: 80vh;
+    width: 100vw;
 }
 
 .inicio {
@@ -239,6 +240,7 @@ img {
 @media (max-width: 375px) {
     .nav {
         flex-direction: column;
+        width: 100vw;
     }
 
     .nav ul {
@@ -247,6 +249,12 @@ img {
     }
 
     .main {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .inicio {
+        display: flex;
         flex-direction: column;
     }
 
