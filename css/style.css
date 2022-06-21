@@ -1,65 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&family=PT+Serif&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&family=PT+Serif&family=Poppins:ital@0;1&family=Roboto&display=swap');
-
+/*  
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-    width: fit-content;
-    height: fit-content;
-}
-
-.grilla {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-        "header header header"
-        "main main main"
-        "footer footer footer";
-    background-color: #E5E7E9;
-}
-
-.header {
-    grid-area: header;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    min-height: 10vh;
-    font-family: 'Poppins', sans-serif;
-    background-color: #7B241C;
-}
-
-.header h1 {
-    color: white;
-    font-size: 40px;
-}
-
-.menu-horizontal {
-    display: flex;
-    list-style: none;
-}
-
-.nav ul li:hover {
-    background-color: red;
-}
-
-.nav ul li a {
-    text-decoration: none;
-    color: white;
-    display: block;
-    align-items: center;
-    padding: 20px;
-    font-size: 20px;
-    text-align: center;
-}
-
-.nav ul li a:hover {
-    transform: scale(1.1);
 }
 
 main {
@@ -70,20 +12,7 @@ main {
     width: 100vw;
 }
 
-.inicio {
-    display: flex;
-}
 
-.inicio p {
-    padding-left: 10px;
-    margin: 30px;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.inicio img {
-    width: 50vw;
-}
 
 .tratamientos {
     display: grid;
@@ -216,9 +145,7 @@ iframe {
     align-content: center;
     align-items: center;
     min-height: 10vh;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    background-color: #7B241C;
+    
 }
 
 .footer p {
@@ -242,58 +169,155 @@ iframe {
 
 img {
     object-fit: cover;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&family=PT+Serif&family=Poppins:ital@0;1&family=Roboto&family=Signika+Negative:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&family=PT+Serif&family=Poppins:ital@0;1&family=Roboto&family=Signika+Negative:wght@600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
 }
 
-/* Responsive Design: Mobile Last */
-@media (max-width: 375px) {
-    .nav {
-        flex-direction: column;
-        width: 100vw;
-    }
+.logo {
+    color: white;
+    font-size: 40px;
+    margin-left: 25px;
+}
 
-    .nav ul {
-        flex-wrap: wrap;
-        display: block;
-    }
+.logo:hover {
+    color: #fff;
+}
 
-    .main {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-    }
+.encabezado {
+    font-family: 'Poppins', sans-serif;
+    background-color: #7B241C;
+}
 
-    .inicio {
-        display: flex;
-        flex-direction: column;
-    }
+.items {
+    justify-content: end;
+}
 
-    .footer p {
-        text-align: center;
-    }
+.items2 {
+    text-decoration: none;
+    color: white;
+    display: block;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
 
-    .footer a {
-        display: block;
-        text-align: center;
-        flex-direction: column;
-    }
+.items2:hover {
+    color: white;
+}
 
-    .contacto {
-        margin-left: 70px;
-    }
+.navbar-toggler {
+    border-color: #fff;
+    color: white;
+}
 
-    .form input {
-        margin-left: 50px;
-        width: 160px;
-    }
+.navbar-toggler:focus {
+    border-color: #fff;
+    box-shadow: none;
+}
 
-    .form textarea {
-        width: 250px;
-    }
+.inicio {
+    margin: 20px;
+}
 
-    iframe {
-        height: 300px;
-        width: 90%;
-    }
+.inicio p {
+    padding-left: 10px;
+    margin: 30px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
 
-    /* Hasta acá hice responsive a la página de contacto del sitio web. */
+.inicio img {
+    margin-top: 30px;
+}
+
+.h1-clientes {
+    margin: 40px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.clientes {
+    margin: 5px;
+}
+
+.clientes img {
+    height: 150px;
+}
+
+.clientes img:hover {
+    transform: scale(1.1);
+}
+
+.tratamientos-fotos img {
+    border: 2px solid #7B241C;
+    height: 250px;
+    margin: 5px;
+    width: 250px;
+}
+
+.tratamientos-fotos img:hover {
+    transform: scale(1.05);
+}
+
+.h1-normas {
+    margin: 40px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.normas img {
+    height: 150px;
+    width: 100px;
+}
+
+.normas img:hover {
+    transform: scale(1.1);
+}
+
+.politica-ambiental p {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.politica-ambiental img {
+    height: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-contacto {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    height: 600px;
+    margin-top: 60px;
+}
+
+.footer {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #7B241C;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #fff;
 }

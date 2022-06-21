@@ -6,29 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Industrias Carmi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <div class="grilla">
-        <header class="header">
-            <h1>Industrias CARMI</h1>
-            <nav class="nav">
-                <ul class="menu-horizontal">
-                    <li><a href="./index.html">INICIO</a></li>
-                    <li><a href="./tratamientos.html">TRATAMIENTOS</a></li>
-                    <li><a href="./quienes-somos.html">QUIENES SOMOS</a></li>
-                    <li><a href="./politica-ambiental.html">POLITICA AMBIENTAL</a></li>
-                    <li><a href="./contacto.html">CONTACTO</a></li>
-                </ul>
-            </nav>
-        </header>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg encabezado">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1 logo">Industrias CARMI</span>
+                <button class="navbar-toggler desplegable" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon desplegable"></span>
+                </button>
+                <div class="collapse navbar-collapse items" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="items2 btn btn-floating btn-lg m-1" aria-current="page"
+                                href="./index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="items2 btn btn-floating btn-lg m-1" href="./tratamientos.html">TRATAMIENTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="items2 btn btn-floating btn-lg m-1" href="./quienes-somos.html">QUIENES SOMOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="items2 btn btn-floating btn-lg m-1" href="./politica-ambiental.html">POLITICA
+                                AMBIENTAL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="items2 btn btn-floating btn-lg m-1" href="./contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <main class="main">
-            <div class="politica-ambiental">
-                <img src="./img/cuidadoambiental.jpg" alt="cuidadoambiental">
-                <p>Contamos con una planta de tratamiento de efluentes modelo que nos permite garantizar la calidad de
+            <div class="politica-ambiental row">
+                <img class="col-12 col-xl-3" src="./img/cuidadoambiental.jpg" alt="cuidadoambiental">
+                <p class="col-12 col-xl-6">Contamos con una planta de tratamiento de efluentes modelo que nos permite
+                    garantizar la calidad de
                     nuestros procesos ambientales de manera segura y efectiva, cumpliendo con las especificaciones y
                     normativas a nivel municipal, provincial y nacional. Ademas tenemos vigentes todos los permisos y
                     habilitaciones dispuestos por los distintos organismos de control gubernamentales. Gracias a ello
@@ -37,19 +59,26 @@
                     haciendo que nuestra empresa brinde productos de alta calidad con bajo impacto sobre el medio
                     ambiente.
                 </p>
-                <img src="./img/cuidadoambiental2.jpg" alt="cuidadoambiental2">
+                <img class="col-12 col-xl-3" src="./img/cuidadoambiental2.jpg" alt="cuidadoambiental2">
             </div>
         </main>
-        <footer class="footer">
-            <p>Av Frías 1731 - Lomas de Zamora - Buenos Aires - Argentina</p>
-            <div class="redes">
-                <a href="#"><i class="fas fa-envelope"></i>info@industriascarmi.com.ar /
-                    ventas@industriascarmi.com.ar</a>
-                <a href="#"><i class="fab fa-whatsapp"></i>11-5026-7362</a>
-                <a href="#"><i class="fas fa-phone"></i>4298-5389</a>
+        <footer class="footer text-center">
+            <div class="container pt-4">
+                <p>Av Frías 1731 - Lomas de Zamora - Buenos Aires - Argentina</p>
+                <div class="redes">
+                    <a class="btn btn-floating btn-lg m-1" role="button"><i class="fas fa-envelope"></i>
+                        info@industriascarmi.com.ar /
+                        ventas@industriascarmi.com.ar</a>
+                    <a class="btn btn-floating btn-lg m-1" role="button"><i class="fab fa-whatsapp"></i>
+                        11-5026-7362</a>
+                    <a class="btn btn-floating btn-lg m-1" role="button"><i class="fas fa-phone"></i> 4298-5389</a>
+                </div>
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
