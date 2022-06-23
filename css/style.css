@@ -49,7 +49,7 @@ body {
     box-shadow: none;
 }
 
-img{
+img {
     border-radius: 15px;
 }
 
@@ -92,7 +92,7 @@ img{
     margin-top: 20px;
     margin-left: 15px;
     width: 250px;
-    
+
 }
 
 .tratamientos-fotos img:hover {
@@ -130,7 +130,11 @@ img{
     height: 350px;
     margin-top: 50px;
     margin-bottom: 50px;
-    border-radius: 35px;
+    border-radius: 30px;
+}
+
+.contacto {
+    margin: 20px;
 }
 
 .form-contacto {
@@ -140,7 +144,6 @@ img{
 
 iframe {
     height: 600px;
-    margin-top: 60px;
 }
 
 .footer {
