@@ -89,9 +89,10 @@ img{
 .tratamientos-fotos img {
     border: 2px solid #7B241C;
     height: 250px;
-    margin: 5px;
+    margin-top: 20px;
     margin-left: 15px;
     width: 250px;
+    
 }
 
 .tratamientos-fotos img:hover {
