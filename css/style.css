@@ -49,6 +49,10 @@ body {
     box-shadow: none;
 }
 
+img{
+    border-radius: 15px;
+}
+
 .inicio {
     margin: 20px;
 }
@@ -125,6 +129,7 @@ body {
     height: 350px;
     margin-top: 50px;
     margin-bottom: 50px;
+    border-radius: 35px;
 }
 
 .form-contacto {
