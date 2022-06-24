@@ -1,5 +1,6 @@
 //  VARIABLES  //
 @import './variables/tipografia';
+@import './variables/extend';
 
 // SECCIONES  // 
 @import './secciones/index';
@@ -9,12 +10,3 @@
 @import './secciones/contacto';
 @import './secciones/nav';
 @import './secciones/footer';
-
-body {
-    font-family: 'Oswald', sans-serif;
-    width: 100vw;
-}
-
-img {
-    border-radius: 15px;
-}

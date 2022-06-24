@@ -1,19 +1,19 @@
 .footer {
     font-size: 22px;
-    font-family: 'Oswald', sans-serif;
+    font-family: $Oswald;
     background-color: #7B241C;
-}
 
-.footer a {
-    text-decoration: none;
-    color: #fff;
-    padding: 5px;
-
-    &:hover {
+    p {
         color: #fff;
     }
-}
 
-.footer p {
-    color: #fff;
+    a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px;
+
+        &:hover {
+            color: #fff;
+        }
+    }
 }

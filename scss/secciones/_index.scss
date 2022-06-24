@@ -1,31 +1,29 @@
 .inicio {
     margin: 20px;
+    p {
+        padding-left: 10px;
+        margin: 30px;
+        @extend %estiloParrafo;
+    
+    }
+    img {
+        margin-top: 30px;
+        border-radius: 15px;
+    }
 }
-
-.inicio p {
-    padding-left: 10px;
-    margin: 30px;
-    font-size: 25px;
-    font-family: 'Oswald', sans-serif;
-}
-
-.inicio img {
-    margin-top: 30px;
-}
-
 .h2-clientes {
     margin: 40px;
     font-size: 40px;
-    font-family: 'Oswald', sans-serif;
+    font-family: $Oswald;
 }
 
 .clientes {
     margin: 5px;
-}
-
-.clientes img {
-    height: 150px;
-    &:hover {
-        transform: scale(1.1);
+    img {
+        height: 150px;
+    
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }

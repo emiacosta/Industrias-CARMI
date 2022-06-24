@@ -1,12 +1,14 @@
-.politica-ambiental p {
+.politica-ambiental {
+    p {
     font-size: 25px;
+    font-family: $Oswald;
     margin-top: 50px;
     margin-bottom: 50px;
-}
-
-.politica-ambiental img {
-    height: 350px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 30px;
+    }
+    img {
+        height: 350px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 30px;
+    }
 }

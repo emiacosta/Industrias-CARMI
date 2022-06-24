@@ -1,46 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&family=PT+Serif&family=Poppins:ital@0;1&family=Roboto&family=Signika+Negative:wght@600&display=swap");
+.inicio p, .tratamientos-descripcion {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif; }
+
 .inicio {
   margin: 20px; }
-
-.inicio p {
-  padding-left: 10px;
-  margin: 30px;
-  font-size: 25px;
-  font-family: 'Oswald', sans-serif; }
-
-.inicio img {
-  margin-top: 30px; }
+  .inicio p {
+    padding-left: 10px;
+    margin: 30px; }
+  .inicio img {
+    margin-top: 30px;
+    border-radius: 15px; }
 
 .h2-clientes {
   margin: 40px;
   font-size: 40px;
-  font-family: 'Oswald', sans-serif; }
+  font-family: "Oswald", sans-serif; }
 
 .clientes {
   margin: 5px; }
-
-.clientes img {
-  height: 150px; }
-  .clientes img:hover {
-    transform: scale(1.1); }
+  .clientes img {
+    height: 150px; }
+    .clientes img:hover {
+      transform: scale(1.1); }
 
 .tratamientos-fotos img {
-  border: 2px solid #7B241C;
   height: 250px;
+  width: 250px;
   margin-top: 20px;
   margin-left: 15px;
-  width: 250px; }
+  border: 2px solid #7B241C;
+  border-radius: 15px; }
   .tratamientos-fotos img:hover {
     transform: scale(1.05); }
 
 .tratamientos-descripcion {
-  margin-top: 30px;
-  font-size: 25px; }
+  margin-top: 30px; }
 
 .h2-normas {
   margin: 40px;
   font-size: 40px;
-  font-family: 'Oswald', sans-serif; }
+  font-family: "Oswald", sans-serif; }
 
 .normas img {
   margin: 30px;
@@ -51,6 +52,7 @@
 
 .politica-ambiental p {
   font-size: 25px;
+  font-family: "Oswald", sans-serif;
   margin-top: 50px;
   margin-bottom: 50px; }
 
@@ -78,7 +80,7 @@ iframe {
     color: #fff; }
 
 .encabezado {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: #7B241C; }
 
 .items {
@@ -104,22 +106,13 @@ iframe {
 
 .footer {
   font-size: 22px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: #7B241C; }
-
-.footer a {
-  text-decoration: none;
-  color: #fff;
-  padding: 5px; }
-  .footer a:hover {
+  .footer p {
     color: #fff; }
-
-.footer p {
-  color: #fff; }
-
-body {
-  font-family: 'Oswald', sans-serif;
-  width: 100vw; }
-
-img {
-  border-radius: 15px; }
+  .footer a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px; }
+    .footer a:hover {
+      color: #fff; }

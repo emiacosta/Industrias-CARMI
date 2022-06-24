@@ -1,13 +1,14 @@
 .h2-normas {
     margin: 40px;
     font-size: 40px;
-    font-family: 'Oswald', sans-serif;
+    font-family: $Oswald;
 }
 
 .normas img {
     margin: 30px;
     height: 200px;
     width: 150px;
+
     &:hover {
         transform: scale(1.05);
     }
