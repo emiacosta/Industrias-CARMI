@@ -1,0 +1,14 @@
+Aplicando SEO a mi proyecto:
+
+1- Modifique los títulos de cada página:
+Nombre de la empresa - tipo de información de la página. Ejemplo: "Industrias CARMI - Tratamientos".
+
+2- Agregue la etiqueta meta con keywords en cada página con palabras clave.
+
+3- Revisé que solo este aplicada 1 vez la etiqueta h1 en cada página. (Se encuentra en el logo de la empresa)
+
+4- Cree la carpeta "Pages" y moví hacía allí las páginas secundarias del sitio, dejando por fuera solamente a index.html
+
+5- A raíz del paso 4, tuve que modificar los "href" de las etiquetas "a" para que la redirección del sitio web entre sus páginas sea la correcta.
+
+6- Agregue el sitemap a la carpeta del proyecto.
