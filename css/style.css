@@ -19,7 +19,8 @@
   font-family: "Oswald", sans-serif; }
 
 .clientes img {
-  height: 150px; }
+  height: 150px;
+  margin: 5px; }
   .clientes img:hover {
     transform: scale(1.1); }
 
