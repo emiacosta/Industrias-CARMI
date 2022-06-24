@@ -1,0 +1,20 @@
+//  VARIABLES  //
+@import './variables/tipografia';
+
+// SECCIONES  // 
+@import './secciones/index';
+@import './secciones/tratamientos';
+@import './secciones/quienesSomos';
+@import './secciones/politicaAmbiental';
+@import './secciones/contacto';
+@import './secciones/nav';
+@import './secciones/footer';
+
+body {
+    font-family: 'Oswald', sans-serif;
+    width: 100vw;
+}
+
+img {
+    border-radius: 15px;
+}

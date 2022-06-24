@@ -1,166 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&family=PT+Serif&family=Poppins:ital@0;1&family=Roboto&family=Signika+Negative:wght@600&display=swap');
-
-body {
-    font-family: 'Oswald', sans-serif;
-    width: 100vw;
-}
-
-.logo {
-    color: white;
-    font-size: 50px;
-    margin-left: 25px;
-}
-
-.logo:hover {
-    color: #fff;
-}
-
-.encabezado {
-    font-family: 'Oswald', sans-serif;
-    background-color: #7B241C;
-}
-
-.items {
-    justify-content: end;
-}
-
-.items2 {
-    text-decoration: none;
-    color: white;
-    display: block;
-    align-items: center;
-    padding: 20px;
-    font-size: 22px;
-    text-align: center;
-}
-
-.items2:hover {
-    color: white;
-}
-
-.navbar-toggler {
-    border-color: #fff;
-    color: white;
-}
-
-.navbar-toggler:focus {
-    border-color: #fff;
-    box-shadow: none;
-}
-
-img {
-    border-radius: 15px;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&family=PT+Serif&family=Poppins:ital@0;1&family=Roboto&family=Signika+Negative:wght@600&display=swap");
 .inicio {
-    margin: 20px;
-}
+  margin: 20px; }
 
 .inicio p {
-    padding-left: 10px;
-    margin: 30px;
-    font-size: 25px;
-    font-family: 'Oswald', sans-serif;
-}
+  padding-left: 10px;
+  margin: 30px;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif; }
 
 .inicio img {
-    margin-top: 30px;
-}
+  margin-top: 30px; }
 
 .h2-clientes {
-    margin: 40px;
-    font-size: 40px;
-    font-family: 'Oswald', sans-serif;
-}
+  margin: 40px;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif; }
 
 .clientes {
-    margin: 5px;
-}
+  margin: 5px; }
 
 .clientes img {
-    height: 150px;
-}
-
-.clientes img:hover {
-    transform: scale(1.1);
-}
+  height: 150px; }
+  .clientes img:hover {
+    transform: scale(1.1); }
 
 .tratamientos-fotos img {
-    border: 2px solid #7B241C;
-    height: 250px;
-    margin-top: 20px;
-    margin-left: 15px;
-    width: 250px;
-
-}
-
-.tratamientos-fotos img:hover {
-    transform: scale(1.05);
-}
+  border: 2px solid #7B241C;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 15px;
+  width: 250px; }
+  .tratamientos-fotos img:hover {
+    transform: scale(1.05); }
 
 .tratamientos-descripcion {
-    margin-top: 30px;
-    font-size: 25px;
-}
+  margin-top: 30px;
+  font-size: 25px; }
 
 .h2-normas {
-    margin: 40px;
-    font-size: 40px;
-    font-family: 'Oswald', sans-serif;
-}
+  margin: 40px;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif; }
 
 .normas img {
-    margin: 30px;
-    height: 200px;
-    width: 150px;
-}
-
-.normas img:hover {
-    transform: scale(1.05);
-}
+  margin: 30px;
+  height: 200px;
+  width: 150px; }
+  .normas img:hover {
+    transform: scale(1.05); }
 
 .politica-ambiental p {
-    font-size: 25px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .politica-ambiental img {
-    height: 350px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 30px;
-}
+  height: 350px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 30px; }
 
 .contacto {
-    margin: 20px;
-}
+  margin: 20px; }
 
 .form-contacto {
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
+  margin-top: 30px;
+  margin-bottom: 20px; }
 
 iframe {
-    height: 600px;
-}
+  height: 600px; }
+
+.logo {
+  color: white;
+  font-size: 50px;
+  margin-left: 25px; }
+  .logo:hover {
+    color: #fff; }
+
+.encabezado {
+  font-family: 'Oswald', sans-serif;
+  background-color: #7B241C; }
+
+.items {
+  justify-content: end; }
+
+.items2 {
+  text-decoration: none;
+  color: white;
+  display: block;
+  align-items: center;
+  padding: 20px;
+  font-size: 22px;
+  text-align: center; }
+  .items2:hover {
+    color: white; }
+
+.navbar-toggler {
+  border-color: #fff;
+  color: white; }
+  .navbar-toggler:focus {
+    border-color: #fff;
+    box-shadow: none; }
 
 .footer {
-    font-size: 22px;
-    font-family: 'Oswald', sans-serif;
-    background-color: #7B241C;
-}
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  background-color: #7B241C; }
 
 .footer a {
-    text-decoration: none;
-    color: #fff;
-    padding: 5px;
-}
+  text-decoration: none;
+  color: #fff;
+  padding: 5px; }
+  .footer a:hover {
+    color: #fff; }
 
 .footer p {
-    color: #fff;
-}
+  color: #fff; }
 
-.footer a:hover {
-    color: #fff;
-}
+body {
+  font-family: 'Oswald', sans-serif;
+  width: 100vw; }
+
+img {
+  border-radius: 15px; }
