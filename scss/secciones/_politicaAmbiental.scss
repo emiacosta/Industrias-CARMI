@@ -1,7 +1,6 @@
 .politica-ambiental {
     p {
-        font-size: 25px;
-        font-family: $Oswald;
+        @extend %estiloParrafo;
         @include marginTopBottom (50px, 50px);
     }
 

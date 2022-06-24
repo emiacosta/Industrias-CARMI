@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&family=PT+Serif&family=Poppins:ital@0;1&family=Roboto&family=Signika+Negative:wght@600&display=swap");
-.inicio p, .tratamientos-descripcion {
+.inicio p, .tratamientos-descripcion, .politica-ambiental p {
   text-align: center;
   font-size: 25px;
   font-family: "Oswald", sans-serif; }
@@ -13,17 +13,15 @@
     margin-top: 30px;
     border-radius: 15px; }
 
-.h2-clientes {
+.clientes h2 {
   margin: 40px;
   font-size: 40px;
   font-family: "Oswald", sans-serif; }
 
-.clientes {
-  margin: 5px; }
-  .clientes img {
-    height: 150px; }
-    .clientes img:hover {
-      transform: scale(1.1); }
+.clientes img {
+  height: 150px; }
+  .clientes img:hover {
+    transform: scale(1.1); }
 
 .tratamientos-fotos img {
   height: 250px;
@@ -38,7 +36,7 @@
 .tratamientos-descripcion {
   margin-top: 30px; }
 
-.h2-normas {
+.normas h2 {
   margin: 40px;
   font-size: 40px;
   font-family: "Oswald", sans-serif; }
@@ -51,8 +49,6 @@
     transform: scale(1.05); }
 
 .politica-ambiental p {
-  font-size: 25px;
-  font-family: "Oswald", sans-serif;
   margin-top: 50px;
   margin-bottom: 50px; }
 
@@ -64,13 +60,11 @@
 
 .contacto {
   margin: 20px; }
-
-.form-contacto {
-  margin-top: 30px;
-  margin-bottom: 20px; }
-
-iframe {
-  height: 600px; }
+  .contacto form {
+    margin-top: 30px;
+    margin-bottom: 20px; }
+  .contacto iframe {
+    height: 600px; }
 
 .logo {
   color: white;
