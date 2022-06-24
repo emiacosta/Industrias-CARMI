@@ -58,9 +58,9 @@
 
 .politica-ambiental img {
   height: 350px;
+  border-radius: 30px;
   margin-top: 50px;
-  margin-bottom: 50px;
-  border-radius: 30px; }
+  margin-bottom: 50px; }
 
 .contacto {
   margin: 20px; }
