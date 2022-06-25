@@ -3,7 +3,7 @@ Aplicando SEO a mi proyecto:
 1- Modifique los títulos de cada página:
 Nombre de la empresa - tipo de información de la página. Ejemplo: "Industrias CARMI - Tratamientos".
 
-2- Agregue la etiqueta meta con keywords en cada página con palabras clave.
+2- Agregue la etiqueta "meta" con keywords en cada página con palabras clave.
 
 3- Revisé que solo este aplicada 1 vez la etiqueta h1 en cada página. (Se encuentra en el logo de la empresa)
 
