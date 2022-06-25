@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&family=PT+Serif&family=Poppins:ital@0;1&family=Roboto&family=Signika+Negative:wght@600&display=swap");
 .inicio p, .tratamientos-descripcion, .politica-ambiental p {
   text-align: center;
-  font-size: 25px;
+  font-size: 27px;
   font-family: "Oswald", sans-serif; }
 
 .inicio {
   margin: 20px; }
   .inicio p {
-    padding-left: 10px;
     margin: 30px; }
   .inicio img {
     margin-top: 30px;
@@ -43,7 +42,7 @@
   font-family: "Oswald", sans-serif; }
 
 .normas img {
-  margin: 30px;
+  margin: 20px;
   height: 200px;
   width: 150px; }
   .normas img:hover {
