@@ -4,6 +4,9 @@
   font-size: 27px;
   font-family: "Oswald", sans-serif; }
 
+main {
+  min-height: 90vh; }
+
 .inicio {
   margin: 20px; }
   .inicio p {
@@ -25,7 +28,6 @@
 
 .tratamientos-fotos img {
   height: 250px;
-  width: 250px;
   margin-top: 20px;
   margin-left: 15px;
   border: 2px solid #7B241C;
@@ -43,8 +45,7 @@
 
 .normas img {
   margin: 20px;
-  height: 200px;
-  width: 150px; }
+  height: 200px; }
   .normas img:hover {
     transform: scale(1.05); }
 
@@ -53,7 +54,7 @@
   margin-bottom: 50px; }
 
 .politica-ambiental img {
-  height: 350px;
+  height: 300px;
   border-radius: 30px;
   margin-top: 50px;
   margin-bottom: 50px; }
